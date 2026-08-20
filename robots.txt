@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dls-mobility.github.io/dls-mobility-website/sitemap.xml
