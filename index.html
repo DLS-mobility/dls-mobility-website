@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLS MOBILITY | Next-Gen Electric Mobility & Energy Architecture</title>
+    <meta name="description" content="Engineering high-density battery architectures, intelligent BMS algorithms, and modular electric powertrain platforms.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="brand-logo">
+                <span class="logo-mark"><i class="fa-solid fa-bolt-lightning"></i></span>
+                <span class="logo-text">DLS<span>MOBILITY</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">Engineering</a>
+                <a href="#solutions" class="nav-link">Platforms</a>
+                <a href="#battery-tech" class="nav-link">Battery Architecture</a>
+                <a href="#impact" class="nav-link">Impact</a>
+                <a href="#contact" class="nav-btn">Initiate Pilot</a>
+            </nav>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg-grid"></div>
+            <div class="hero-glow"></div>
+            <div class="container hero-content">
+                <div class="badge">
+                    <span class="pulse-dot"></span> Next-Generation Powertrain & Energy Storage
+                </div>
+                <h1 class="hero-title">
+                    Accelerating Clean Transit with <span class="gradient-text">Adaptive Energy</span> Architecture.
+                </h1>
+                <p class="hero-description">
+                    DLS MOBILITY engineers high-efficiency traction systems, cell-to-pack thermal management modules, and deep-telemetry Battery Management Systems (BMS) for commercial and passenger fleets.
+                </p>
+                <div class="hero-actions">
+                    <a href="#battery-tech" class="btn-primary">Explore Battery Tech <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn-secondary"><i class="fa-solid fa-file-lines"></i> Technical Spec Sheet</a>
+                </div>
+
+                <!-- Live Metrics -->
+                <div class="hero-metrics">
+                    <div class="metric-card">
+                        <span class="metric-num" data-target="96.4">0</span><span class="metric-unit">%</span>
+                        <p class="metric-label">Inverter Efficiency</p>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-num" data-target="320">0</span><span class="metric-unit">Wh/kg</span>
+                        <p class="metric-label">Target Gravimetric Density</p>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-num" data-target="2500">0</span><span class="metric-unit">+</span>
+                        <p class="metric-label">Cycle Life (@80% SOH)</p>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-num" data-target="15">0</span><span class="metric-unit">min</span>
+                        <p class="metric-label">Ultra-Fast Charge 10-80%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Engineering Pillars -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">R&D Directives</span>
+                    <h2 class="section-title">Designed for Demanding Duty Cycles</h2>
+                    <p class="section-subtitle">Bridging thermodynamic simulation, mechanical durability, and embedded intelligence.</p>
+                </div>
+
+                <div class="pillars-grid">
+                    <div class="pillar-card">
+                        <div class="pillar-icon"><i class="fa-solid fa-microchip"></i></div>
+                        <h3>Intelligent BMS Matrix</h3>
+                        <p>Real-time State of Charge (SOC), State of Health (SOH), and predictive thermal-runaway mitigation powered by low-latency edge compute firmware.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-icon"><i class="fa-solid fa-temperature-arrow-down"></i></div>
+                        <h3>Phase-Change Immersion Cooling</h3>
+                        <p>Direct contact dielectric fluid channels balancing pack isothermal gradients within ±1.8°C under continuous 3C discharge rates.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3>Structural Cell-to-Chassis (CTC)</h3>
+                        <p>High-strength extruded aluminium framing acting as a load-bearing chassis member, cutting deadweight by 22% compared to conventional modules.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Battery Tech Deep-Dive -->
+        <section class="section tech-section" id="battery-tech">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Battery Engineering</span>
+                    <h2 class="section-title">Hardware-Level Energy Innovation</h2>
+                </div>
+
+                <div class="tech-interface">
+                    <div class="tech-tabs">
+                        <button class="tab-btn active" data-tab="thermal">Thermal Architecture</button>
+                        <button class="tab-btn" data-tab="telemetry">Active Telemetry</button>
+                        <button class="tab-btn" data-tab="chemistry">Electrochemical Robustness</button>
+                    </div>
+
+                    <div class="tab-content active" id="thermal">
+                        <div class="content-split">
+                            <div class="content-text">
+                                <h3>Multi-Channel Microfluidic Heat Extraction</h3>
+                                <p>Extreme ambient conditions degrade standard EV packs. Our liquid-cooled thermal manifolds distribute cooling medium symmetrically across all parallel groups.</p>
+                                <ul class="spec-list">
+                                    <li><i class="fa-solid fa-check"></i> Prevents localized localized hotspots</li>
+                                    <li><i class="fa-solid fa-check"></i> Optimized for high tropical ambient temperatures (up to 50°C)</li>
+                                    <li><i class="fa-solid fa-check"></i> Low pressure drop hydraulic architecture</li>
+                                </ul>
+                            </div>
+                            <div class="content-display">
+                                <div class="hud-box">
+                                    <div class="hud-line"><span>Target Gradient</span><strong>&lt; 2.0°C</strong></div>
+                                    <div class="hud-line"><span>Max Continuous Discharge</span><strong>3.5 C-Rate</strong></div>
+                                    <div class="hud-line"><span>Coolant Medium</span><strong>Dielectric / Glycol-H2O</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="telemetry">
+                        <div class="content-split">
+                            <div class="content-text">
+                                <h3>Edge-Analytics & Cloud Fleet Diagnostic</h3>
+                                <p>Continuous CAN bus logging transmits electrochemical state signatures directly to the fleet hub to pre-empt cell degradation and isolate weak cells before pack-level imbalance occurs.</p>
+                                <ul class="spec-list">
+                                    <li><i class="fa-solid fa-check"></i> Active shunt balancing up to 500mA</li>
+                                    <li><i class="fa-solid fa-check"></i> Over-the-air (OTA) BMS firmware updates</li>
+                                    <li><i class="fa-solid fa-check"></i> Multi-layer insulation fault isolation (ISO17409)</li>
+                                </ul>
+                            </div>
+                            <div class="content-display">
+                                <div class="hud-box">
+                                    <div class="hud-line"><span>Sampling Frequency</span><strong>100 Hz</strong></div>
+                                    <div class="hud-line"><span>Voltage Sense Accuracy</span><strong>±1.2 mV</strong></div>
+                                    <div class="hud-line"><span>Bus Topology</span><strong>Isolated Dual CAN 2.0B</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="chemistry">
+                        <div class="content-split">
+                            <div class="content-text">
+                                <h3>Optimized Cathode & Anode Intercalation</h3>
+                                <p>Custom packaging solutions tailored for both ultra-safe LFP (Lithium Iron Phosphate) high-cycle applications and high-energy-density NMC/NCA platforms.</p>
+                                <ul class="spec-list">
+                                    <li><i class="fa-solid fa-check"></i> Laser-welded pure copper-nickel bussing</li>
+                                    <li><i class="fa-solid fa-check"></i> Integrated gas decompression blast valves</li>
+                                    <li><i class="fa-solid fa-check"></i> IP67 & IP69K liquid ingress rating</li>
+                                </ul>
+                            </div>
+                            <div class="content-display">
+                                <div class="hud-box">
+                                    <div class="hud-line"><span>Enclosure Ingress</span><strong>IP67 / IP69K</strong></div>
+                                    <div class="hud-line"><span>Vibration Compliance</span><strong>AIS-048 / ISO 12405</strong></div>
+                                    <div class="hud-line"><span>Pack Configuration</span><strong>Modular 48V to 800V</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product / Platform Segment -->
+        <section class="section solutions-section" id="solutions">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Modular Applications</span>
+                    <h2 class="section-title">Electrification Platforms</h2>
+                </div>
+
+                <div class="solutions-grid">
+                    <div class="solution-card">
+                        <div class="card-tag">Commercial & Cargo</div>
+                        <h3>DLS UltraPack 72V</h3>
+                        <p>High-duty continuous operation battery pack built specifically for 2W/3W commercial delivery fleets requiring ultra-durable thermal endurance.</p>
+                        <div class="card-footer">
+                            <span>Capacity: <strong>3.8 kWh – 7.6 kWh</strong></span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </div>
+                    <div class="solution-card featured">
+                        <div class="card-tag">Industrial & Utility</div>
+                        <h3>DLS HeavyTrak 96V</h3>
+                        <p>Reinforced energy system for industrial utility vehicles and light commercial transport with dual-can redundancy and auxiliary power take-off.</p>
+                        <div class="card-footer">
+                            <span>Capacity: <strong>15 kWh – 30 kWh</strong></span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </div>
+                    <div class="solution-card">
+                        <div class="card-tag">Passenger & Performance</div>
+                        <h3>DLS HyperCore 400V</h3>
+                        <p>High-voltage traction architecture engineered with direct immersion cooling for rapid acceleration performance and high-speed DC charging.</p>
+                        <div class="card-footer">
+                            <span>Capacity: <strong>40 kWh – 75 kWh</strong></span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Contact / Pilot Onboarding -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-text">
+                        <span class="section-tag">Partnership & Inquiries</span>
+                        <h2>Integrate DLS Architecture Into Your Fleet.</h2>
+                        <p>Collaborate directly with our engineering team for custom pack design, BMS firmware mapping, and validation prototyping.</p>
+                        <div class="contact-details">
+                            <div><i class="fa-solid fa-location-dot"></i> India</div>
+                            <div><i class="fa-solid fa-envelope"></i> contact@dlsmobility.in</div>
+                            <div><i class="fa-solid fa-bolt"></i> EV Powertrain & Battery R&D Division</div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name / Organization</label>
+                            <input type="text" id="name" required placeholder="e.g., Sanjog Gaudel / Fleet OEM">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Work Email</label>
+                            <input type="email" id="email" required placeholder="name@company.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">Platform Interest</label>
+                            <select id="interest">
+                                <option value="72v">72V Commercial Delivery Pack</option>
+                                <option value="96v">96V Industrial & Utility</option>
+                                <option value="hv">High Voltage Powertrain (400V+)</option>
+                                <option value="bms">Custom BMS Architecture</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Requirements</label>
+                            <textarea id="message" rows="3" placeholder="Target voltage, C-rate, volume, or vehicle specifications..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary w-full">Submit Technical Request</button>
+                        <p class="form-alert" id="formAlert"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <span class="logo-text">DLS<span>MOBILITY</span></span>
+                <p>Architecting the fundamental energy layer for clean electric mobility.</p>
+            </div>
+            <div class="footer-links">
+                <span>© 2026 DLS MOBILITY. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
